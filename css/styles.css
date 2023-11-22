@@ -68,12 +68,21 @@ button:hover {
 
 footer {
     background-color: #014921;
-    width: 100%;
-    height: 70px;
-    bottom: 0;
+    
+    
+    
     display: flex;
-    flex-direction: row;
+   
     align-content: center;
+    padding: 26px 108px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Serif 4', serif;
+    color: #FFEAD9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
 }
 
 .footer-links {
@@ -81,3 +90,74 @@ footer {
     margin: 10px;
     align-content: center;
 }
+
+
+
+.logoadress{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.adresss{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.socialmedialinks{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    justify-content: space-between;
+}
+
+.linkss{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+a:hover{
+   color: #FFBBA6;
+}
+
+a{
+    color: #FFEAD9;
+    text-decoration: none;
+
+}
+
+.logoo{
+    width: 113px;
+    height: 35px;
+}
+
+.instalogo{
+    width: 36px;
+    height: 36px;
+}
+
+.tiktoklogo{
+    width: 36px;
+    height: 36px;
+}
+
+
+
+
+
+
+
