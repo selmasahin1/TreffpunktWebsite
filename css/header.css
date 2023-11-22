@@ -15,6 +15,8 @@ html body {
 
 .logo {
     width: 300px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .menu {
@@ -42,7 +44,6 @@ html body {
 
 .menu li a:hover {
     color: #FFBBA6;
-    /* Change the color on hover */
     font-style: italic;
     font-style: underline;
 }
