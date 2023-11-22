@@ -12,18 +12,17 @@
     font-size: 40px;
 }
 
-.logo {
-    margin-right: 20px;
-}
-
-.logoSvg {
-    width: 250px;
+.logo img {
+    width: 113px;
+    height: 35px;
+    color: #014921;
 }
 
 .title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 
 .menuLeft a,
@@ -33,7 +32,8 @@
     text-decoration: none;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
-    flex: 3;
+    margin: 0 90px;
+    display: inline;
 }
 
 .menuLeft,
@@ -42,11 +42,26 @@
     align-items: center;
 }
 
+.menuLeft a:hover,
+.menuRight a:hover {
+    color: #FF5500;
+    border-bottom: 3px solid #FF5500;
+    border-radius: 2px;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
     background-color: #FFEAD9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin: 30px;
+    font-family: 'Rubik', sans-serif;
 }
 
 iframe {
@@ -62,6 +77,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Angebot Styles*/
 
 .container {
     display: flex;
@@ -111,13 +128,11 @@ button:hover {
     }
 }
 
+/* Footer Styles*/
+
 footer {
     background-color: #014921;
-    
-    
-    
     display: flex;
-   
     align-content: center;
     padding: 26px 108px;
     justify-content: space-between;
@@ -128,6 +143,7 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
+    margin-top: auto;
 }
 
 .footer-links {
@@ -136,30 +152,26 @@ footer {
     align-content: center;
 }
 
-
-
-.logoadress{
+.logoadress {
     display: flex;
     align-items: center;
     gap: 80px;
 }
 
-.adresss{
+.adresss {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 28px;
 }
 
-.socialmedialinks{
+.socialmedialinks {
     display: flex;
     align-items: center;
     gap: 56px;
 }
 
-
-
-.icons{
+.icons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -167,42 +179,33 @@ footer {
     justify-content: space-between;
 }
 
-.linkss{
+.linkss {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-
 }
 
-a:hover{
-   color: #FFBBA6;
+a:hover {
+    color: #FFBBA6;
 }
 
-a{
+a {
     color: #FFEAD9;
     text-decoration: none;
-
 }
 
-.logoo{
+.logoo {
     width: 113px;
     height: 35px;
 }
 
-.instalogo{
+.instalogo {
     width: 36px;
     height: 36px;
 }
 
-.tiktoklogo{
+.tiktoklogo {
     width: 36px;
     height: 36px;
 }
-
-
-
-
-
-
-
