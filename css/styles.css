@@ -66,6 +66,52 @@ button:hover {
     }
 }
 
+.aboutus{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
+.fotos{
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.roundcorners{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.wwwtext{
+    
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 20px;
+   
+
+   
+}
+
+.wwtext{
+    width: 260px;
+    height: 25px;
+    display: flex;
+    align-items: flex-start;
+    color: #014921;
+}
+
 footer {
     background-color: #014921;
     
