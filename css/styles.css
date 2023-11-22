@@ -161,17 +161,26 @@ img{
     font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 20px;
-   
+   display: flex;
+   align-items: flex-start;
 
    
 }
 
-.wwtext{
+.wwtext a{
     width: 260px;
     height: 25px;
     display: flex;
     align-items: flex-start;
     color: #014921;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wwtext{
+    text-align: center;
+    margin: auto;
+    padding: 0px;
 }
 
 /* Footer Styles*/
