@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/kontakt.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,300;1,8..60,800&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="../logoShort.png">
     <title>Treffpunkt</title>
 </head>
@@ -27,23 +30,66 @@
         </div>
     </div>
     <div class="content">
-        <h1>Kontaktseite</h1>
-
-        <h2>Öffnungszeiten</h2>
-        So-Do: 8:00 – 22:00<br>
-        Fr-Sa: 9:00 – 03:00<br>
-        Die Öffnungszeiten der einzelnen Angebote können von den Hauptöffnungszeiten abweichen.
-
-        <h2>Adresse</h2>
-        Treffpunkt<br>
-        Lindenweg 7<br>
-        7000 Chur<br>
-        +41 79 489 31 92<br>
-        info@treffpunkt.ch
-
-        <h2>Anfahrt</h2>
-
-        Treffpunkt ist vom Bahnhof Chur aus in weniger als fünf Minuten erreichbar.
+        <div class="text">
+            <div class="openingHours">
+                <div class="openingHoursText">
+                    <div class="mainTitle">Öffnungszeiten</div>
+                    <div class="bigText">
+                        So-Do: 8:00 – 22:00<br>
+                        Fr-Sa: 9:00 – 03:00<br>
+                    </div>
+                    <div class="smallText">
+                        Die Öffnungszeiten der einzelnen Angebote können von den Hauptöffnungszeiten abweichen.
+                    </div>
+                </div>
+                <div class="house"><img src="/svg/house.svg" alt="Haus Icon"></div>
+            </div>
+            <div class="address">
+                <div class="mapPicture"><img src="/svg/map.svg" alt="Treffpunkt Location"></div>
+                <div class="addressText">
+                    <div class="mainTitle">Adresse</div>
+                    <div class="bigText">
+                        Treffpunkt<br>
+                        Lindenweg 7<br>
+                        7000 Chur<br>
+                        +41 79 489 31 92<br>
+                        info@treffpunkt.ch
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <svg width="1318" height="853" viewBox="0 0 1318 853" fill="none">
+                <path
+                    d="M1251.79 82.6505C1360.58 211.071 1328.28 539.801 1201.5 698.5C1074.72 857.199 962.5 852.645 645.779 852.645C438.081 846.381 239.375 819.764 118.893 665.242C-1.58946 510.719 -43.8482 215.247 55.0552 93.0912C154.858 -29.065 395.823 21.0503 643.081 16.874C890.34 12.6978 1143.89 -45.7701 1251.79 82.6505Z"
+                    fill="#FFBBA6" />
+            </svg>
+            <div class="textOverlay">
+                <div class="upperTitle">Hast du Fragen? Möchtest du mitwirken?</div>
+                <div class="mainTitle">Schreib uns!</div>
+                <form>
+                    <div class="name">
+                        <div class="fname">
+                            <label for="fname">Vorname</label><br>
+                            <input type="text" id="fname" name="fname" required><br>
+                        </div>
+                        <div class="lname">
+                            <label for="lname">Nachname</label><br>
+                            <input type="text" id="lname" name="lname"><br>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <label for="email">E-Mail</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div class="text">
+                        <label for="subject">Nachricht</label><br>
+                        <textarea id="subject" name="subject" style="height:200px" required></textarea><br>
+                    </div>
+                    <input type="submit" value="→ Abschicken" class="sendButton">
+                </form>
+            </div>
+        </div>
     </div>
     <footer>
         <div class="logoadress">

@@ -1,0 +1,161 @@
+.content {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+label {
+    color: var(--blau, #12263A);
+    font-family: 'Source Serif 4', serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+textarea {
+    width: 929px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sendButton {
+    padding: 8px 16px;
+    border-radius: 19px;
+    background: #F50;
+    border: none;
+    color: var(--weiss, #FFEAD9);
+    font-family: 'Source Serif 4', serif;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 900;
+    height: 55px;
+    width: 220px;
+    margin-left: auto;
+}
+
+.form div {
+    fill: var(--pink, #FFBBA6);
+}
+
+.form {
+    position: relative;
+    display: inline-block;
+    align-content: center;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.upperTitle {
+    color: var(--blau, #12263A);
+    font-family: 'Source Serif 4', serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.mainTitle {
+    color: var(--blau, #12263A);
+    font-family: 'Source Serif 4', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.name {
+    display: flex;
+}
+
+.email {
+    margin-left: 20px;
+}
+
+.email input {
+    width: 500px;
+}
+
+.text {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTitle {
+    color: var(--blau, #12263A);
+    font-family: 'Source Serif 4', serif;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    width: 470px;
+}
+
+.bigText {
+    color: var(--blau, #12263A);
+    font-family: 'Source Serif 4', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    width: 470px;
+}
+
+.smallText {
+    color: var(--blau, #12263A);
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    width: 470px;
+}
+
+.openingHours {
+    display: flex;
+    align-items: center;
+}
+
+.openingHoursText {
+    margin-right: 130px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.addressText {
+    margin-left: 130px;
+}
