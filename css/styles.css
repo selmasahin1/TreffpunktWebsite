@@ -1,3 +1,4 @@
+/* Header */
 .home {
     background-color: #FF5500;
     height: 100vh;
@@ -19,10 +20,15 @@
 }
 
 .title {
+    background-color: #FFEAD9;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 5;
 }
 
 .menuLeft a,
@@ -57,130 +63,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-.content {
-    margin: 30px;
-    font-family: 'Rubik', sans-serif;
-}
-
-iframe {
-    border: none;
-    height: 220px;
-    width: 100%;
-    padding: 0;
-    top: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Angebot Styles*/
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.card {
-    width: calc(33.33% - 40px);
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-button {
-    background-color: #F48722;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-
-button:hover {
-    background-color: #FF5500;
-}
-
-@media screen and (max-width: 768px) {
-    .card {
-        width: calc(50% - 40px);
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .card {
-        width: calc(100% - 40px);
-    }
-}
-
-.aboutus{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 56px;
-}
-
-.fotos{
-    display: flex;
-    align-items: flex-start;
-    gap: 80px;
-}
-
-.roundcorners{
-    width: 180px;
-    height: 180px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-img{
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
-}
-
-.wwwtext{
-    
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    font-size: 20px;
-   display: flex;
-   align-items: flex-start;
-
-   
-}
-
-.wwtext a{
-    width: 260px;
-    height: 25px;
-    display: flex;
-    align-items: flex-start;
-    color: #014921;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.wwtext{
-    text-align: center;
-    margin: auto;
-    padding: 0px;
 }
 
 /* Footer Styles*/
@@ -241,11 +123,11 @@ footer {
     gap: 24px;
 }
 
-a:hover {
+.linkss a:hover, .icons a:hover  {
     color: #FFBBA6;
 }
 
-a {
+.icons a, .linkss a {
     color: #FFEAD9;
     text-decoration: none;
 }

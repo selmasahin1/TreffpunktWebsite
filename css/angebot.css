@@ -1,0 +1,81 @@
+
+.offercontainer {
+    display: flex;
+    z-index: 1;
+}
+
+.offercontent {
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.offermenu a{
+    font-family: 'Rubik', sans-serif;
+    color: #014921;
+    text-decoration: none;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.offermenu a:hover {
+    color: #FF5500;
+}
+
+.offermenu {
+    text-align: right;
+    position: fixed;
+    top: 40vh;
+    left: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cafe, .co-working, .workshop, .restaurant, .urbanGarden, .kino, .club {
+    position: relative;
+    display: inline-block;
+}
+
+.co-working, .workshop, .restaurant, .urbanGarden, .kino, .club {
+    margin-top: -100px;
+}
+
+.kino div, .cafe div {
+    color: var(--blau, #12263A);
+}
+
+.co-working div, .workshop div, .restaurant div, .urbanGarden div, .club div {
+    color: var(--weiss, #FFEAD9);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Source Serif 4', serif;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 57px;
+}
+
+.content {
+    text-align: center;
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
