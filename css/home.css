@@ -1,8 +1,16 @@
+.home {
+    margin-top: 100px;
+    position: relative;
+}
+
 .text-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.header {
     color: #fff;
     font-size: 24px;
     font-weight: bold;
@@ -15,8 +23,14 @@
     line-height: normal;
 }
 
-.star1 {
-    position: absolute;
-    top: -125px;
-    left: -85px;
+.svg-container {
+    margin-top: 100px;
+    width: 266px;
+    height: 266px;
+    transition: transform 0.3s ease;
+    transform-origin: 50% 50%;
+}
+
+.svg-container:hover {
+    transform: rotate(90deg) scale(1.1);
 }
