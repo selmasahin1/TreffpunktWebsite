@@ -1,0 +1,79 @@
+.content {
+    align-content: center;
+    margin-top: 180px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    color: var(--weiss, #FFEAD9);
+    font-family: 'Source Serif 4', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.owner,
+.address,
+.contact {
+    position: relative;
+    display: inline-block;
+}
+
+.address {
+    margin-left: -120px;
+    margin-right: -120px;
+}
+
+.header {
+    color: var(--weiss, #FFEAD9);
+    text-align: center;
+    font-family: 'Source Serif 4' , serif;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: -160px;
+}
+
+.header2 {
+    color: var(--weiss, #12263a);
+    font-family: 'Source Serif 4' , serif;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+.rightstext {
+    color: var(--blau, #12263A);
+font-family: 'Source Serif 4';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+
+.rights{
+    align-items: normal;
+    margin: 120px 0 120px 220px;
+}
