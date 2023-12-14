@@ -146,3 +146,17 @@ footer {
     width: 36px;
     height: 36px;
 }
+
+.svg-container {
+    margin-top: 100px;
+    width: 266px; /* Adjust as needed */
+    height: 266px; /* Adjust as needed */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    transform-origin: 50% 50%;
+  }
+  
+  /* Rotate on hover */
+  .svg-container:hover {
+    transform: rotate(90deg) scale(1.1);
+  }
+  
