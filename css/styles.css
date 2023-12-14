@@ -1,16 +1,15 @@
 /* Header */
 .home {
-    background-color: #FF5500;
     height: 100vh;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "pain-de-mie", sans-serif;
-    font-weight: 400;
+    font-family: 'Source Serif 4' , serif;
+    font-weight: 800;
     font-style: normal;
-    color: white;
-    font-size: 40px;
+    color: #FE932F;
+    font-size: 72px;
 }
 
 .logo img {
