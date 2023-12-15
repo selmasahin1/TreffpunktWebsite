@@ -85,7 +85,6 @@
     font-style: italic;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 48px;
 }
 
 .content {
@@ -96,5 +95,54 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.4px;
-    width: 360px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.buttonwhite {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 19.2px;
+    background: var(--weiss, #FFEAD9);
+    color: var(--dunkel-orange, #F50);
+}
+
+.buttonblue {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 19.2px;
+    background: var(--blau, #12263A);
+    color: var(--weiss, #FFEAD9);
+}
+
+.buttonorange {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 19.2px;
+    background: var(--dunkel-orange, #F50);
+    color: var(--weiss, #FFEAD9);
+}
+
+.buttonText {
+    color: var(--dunkel-orange, #F50);
+    text-align: center;
+    font-family: Source Serif 4;
+    font-size: 28.8px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.576px;
 }
