@@ -1,4 +1,3 @@
-
 .offercontainer {
     display: flex;
     z-index: 1;
@@ -6,11 +5,11 @@
 
 .offercontent {
     align-items: center;
-    margin-left: 400px;
+    margin-left: 280px;
     margin-top: 150px;
 }
 
-.offermenu a{
+.offermenu a {
     font-family: 'Rubik', sans-serif;
     color: #014921;
     text-decoration: none;
@@ -27,37 +26,56 @@
     position: fixed;
     top: 40vh;
     left: 0;
-    width: 300px;
+    width: 240px;
     display: flex;
     flex-direction: column;
 }
 
 
-.cafe, .co-working, .workshop, .restaurant, .urbanGarden, .kino, .club {
+.cafe,
+.co-working,
+.workshop,
+.restaurant,
+.urbanGarden,
+.kino,
+.club {
     position: relative;
     display: inline-block;
 }
 
-.co-working, .workshop, .restaurant, .urbanGarden, .kino, .club {
+.co-working,
+.workshop,
+.restaurant,
+.urbanGarden,
+.kino,
+.club {
     margin-top: -100px;
 }
 
-.kino div, .cafe div {
+.kino div,
+.cafe div {
     color: var(--blau, #12263A);
 }
 
-.co-working div, .workshop div, .restaurant div, .urbanGarden div, .club div {
+.co-working div,
+.workshop div,
+.restaurant div,
+.urbanGarden div,
+.club div {
     color: var(--weiss, #FFEAD9);
 }
 
-.text-overlay {
+.overlay {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 82px;
 }
 
 .header {
@@ -67,7 +85,7 @@
     font-style: italic;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 57px;
+    margin-bottom: 48px;
 }
 
 .content {
@@ -78,4 +96,5 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.4px;
+    width: 360px;
 }
