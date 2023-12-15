@@ -34,3 +34,15 @@
 .svg-container:hover {
     transform: rotate(90deg) scale(1.1);
 }
+
+.maintext{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--hell-orange, #FE932F);
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
