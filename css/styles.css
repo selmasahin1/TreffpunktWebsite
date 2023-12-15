@@ -37,7 +37,7 @@
     text-decoration: none;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
-    margin: 0 90px;
+    margin: 0 96px;
     display: inline;
 }
 
@@ -45,6 +45,14 @@
 .menuRight {
     display: flex;
     align-items: center;
+}
+
+.menuLeft {
+    margin-left: 160px;
+}
+
+.menuRight {
+    margin-right: 160px;
 }
 
 .menuLeft a:hover,
