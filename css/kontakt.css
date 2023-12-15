@@ -13,12 +13,13 @@ input {
     border: 1px solid black;
     flex-shrink: 0;
     margin-right: 30px;
+    background-color: #FFEAD9;
 }
 
 label {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 15px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -32,6 +33,7 @@ textarea {
     border-radius: 20px;
     border: 1px solid black;
     margin-bottom: 50px;
+    background-color: #FFEAD9;
 }
 
 form {
@@ -52,6 +54,7 @@ form {
     height: 55px;
     width: 220px;
     margin-left: auto;
+    margin-right: 100px;
 }
 
 .form div {
@@ -66,7 +69,7 @@ form {
 
 .textOverlay {
     position: absolute;
-    top: 43%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;
@@ -93,10 +96,12 @@ form {
 
 .name {
     display: flex;
+    margin-bottom: 28px;
 }
 
 .email {
     margin-left: 20px;
+    margin-bottom: 28px;
 }
 
 .email input {
@@ -117,6 +122,7 @@ form {
     font-weight: 800;
     line-height: normal;
     width: 470px;
+    margin-bottom: 36px;
 }
 
 .bigText {
@@ -125,9 +131,10 @@ form {
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 56px;
     letter-spacing: 0.64px;
     width: 470px;
+    margin-bottom: 24px;
 }
 
 .smallText {
@@ -144,6 +151,7 @@ form {
 .openingHours {
     display: flex;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .openingHoursText {
@@ -153,8 +161,7 @@ form {
 .address {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
-}
+    margin-bottom: 72px;}
 
 .addressText {
     margin-left: 130px;
