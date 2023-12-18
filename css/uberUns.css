@@ -1,11 +1,10 @@
 .aboutus {
     margin-top: 100px;
     display: flex;
-    align-items: center;
     gap: 30px;
 }
 
-.aboutus{
+.aboutus {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +15,7 @@
     line-height: normal;
 }
 
-.aboutustext{
+.aboutustext {
     display: flex;
     width: 1111px;
     flex-direction: column;
@@ -26,20 +25,54 @@
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.44px;
-    text-align: center;
 }
 
 .header {
     font-size: 64px;
     font-style: italic;
     font-weight: 800;
-    
 }
 
-.aboutusphotos{
+.aboutusphotos {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 48px;
     align-self: stretch;
+}
+
+.wQuestions {
+    display: flex;
+}
+
+.leftSvg {
+    flex: 1;
+    margin: 40px;
+}
+
+.content {
+    flex-grow: 4;
+    flex: 4;
+    color: var(--blau, #12263A);
+    text-align: center;
+    font-family: 'Source Serif 4';
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.content p {
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.rightSvg {
+    flex: 1;
+    margin: 40px;
 }
