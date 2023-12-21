@@ -15,6 +15,14 @@
 
 <body>
     <div class="title">
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+        <label for="menu-checkbox" class="menu-icon"><div></div><div></div><div></div></label>
+        <div class="menu-links">
+            <a href="angebot.html" target="_parent">Angebote</a>
+            <a href="index.html" target="_parent">Events</a>
+            <a href="uberUns.html" target="_parent">Über Uns</a>
+            <a href="kontakt.html" target="_parent">Kontakt</a>
+        </div>
         <div class="menuLeft">
             <a href="angebot.html" target="_parent">Angebote</a>
             <a href="index.html" target="_parent">Events</a>
@@ -45,7 +53,7 @@
             </div>
         </div>
 
-        <div class="row2content">
+        <div class="flexbox">
             <div class="blob">
                 <svg xmlns="http://www.w3.org/2000/svg" width="669" height="689" viewBox="0 0 669 689" fill="none">
                     <path
@@ -53,17 +61,15 @@
                         fill="#FFBBA6" />
                 </svg>
                 <div class="text-overlay">
-                    <div class="textt">
-                        <div class="header" style="color: #12263a;">
-                            Der Treffpunkt
-                        </div>
-                        <div class="bodytext">
-                            Auf fünf Stockwerke verteilt, erwartet dich ein umfassendes Angebot im Treffpunkt.
-                            Verbringe
-                            dein Tag mit uns und tobe dich so richtig aus. Wir bieten Unterhaltung für jung und alt.
-                            Das
-                            benutzen vom Treffpunkt ist kostenlos und frei zugänglich zu unseren Öffnungszeiten.
-                        </div>
+                    <div class="header blue">
+                        Der Treffpunkt
+                    </div>
+                    <div class="bodytext blue">
+                        Auf fünf Stockwerke verteilt, erwartet dich ein umfassendes Angebot im Treffpunkt.
+                        Verbringe
+                        dein Tag mit uns und tobe dich so richtig aus. Wir bieten Unterhaltung für jung und alt.
+                        Das
+                        benutzen vom Treffpunkt ist kostenlos und frei zugänglich zu unseren Öffnungszeiten.
                     </div>
                 </div>
             </div>
@@ -74,53 +80,58 @@
                         d="M423.584 27.8053L423.586 27.8063C504.634 67.6771 514.284 155.336 498.567 223.438C490.74 257.348 476.653 285.813 453.869 308.98C431.073 332.161 399.423 350.188 356.237 362.972C269.138 388.333 203.066 396.956 111.721 363.982C21.1962 331.304 -1.30737 245.017 2.99735 179.163C5.14109 146.368 14.0311 119.187 35.5108 95.8204C57.063 72.3752 91.506 52.5323 145.25 34.9342C252.967 -0.3371 341.466 -12.6785 423.584 27.8053Z"
                         fill="#FFEAD9" stroke="#12263A" stroke-width="5" />
                 </svg>
-                <div class="text-overlay header2">
+                <div class="text-overlay bigText">
                     7 Angebote <br>
                     5 Stockwerke <br>
                     1 Ort
                 </div>
             </div>
         </div>
-
         <div class="blob right">
+            <div class="text-overlay svgFlexbox">
+                <div class="svg-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="318" height="316" viewBox="0 0 318 316" fill="none"
+                        class="star1">
+                        <path
+                            d="M158.833 0L163.118 110.495C163.429 118.517 174.043 121.133 178.046 114.174L233.189 18.327L185.633 118.156C182.181 125.404 190.363 132.653 197.142 128.352L290.511 69.1096L202.009 135.404C195.584 140.217 199.46 150.438 207.462 149.78L317.667 140.714L208.494 158.286C200.568 159.562 199.251 170.413 206.641 173.549L308.436 216.737L203.603 181.561C195.991 179.007 189.782 188.003 194.869 194.214L264.933 279.762L188.455 199.896C182.902 194.098 173.223 199.178 174.841 207.042L197.124 315.351L166.521 209.092C164.299 201.378 153.368 201.378 151.146 209.092L120.543 315.351L142.826 207.042C144.444 199.178 134.765 194.098 129.212 199.896L52.7338 279.762L122.798 194.214C127.885 188.003 121.675 179.007 114.064 181.561L9.23082 216.737L111.026 173.549C118.416 170.413 117.099 159.562 109.172 158.286L0 140.714L110.205 149.78C118.206 150.438 122.083 140.217 115.657 135.404L27.156 69.1096L120.525 128.352C127.304 132.653 135.486 125.404 132.033 118.156L84.4777 18.327L139.621 114.174C143.624 121.133 154.238 118.517 154.549 110.494L158.833 0Z"
+                            fill="#FE932F" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="178" height="182" viewBox="0 0 178 182" fill="none"
+                        class="star2">
+                        <path
+                            d="M98.9012 5.49827C101.919 -3.60444 115.479 -0.659109 114.449 8.8752L109.096 58.4018C108.513 63.7953 113.353 68.1927 118.666 67.0964L167.453 57.029C176.845 55.0909 181.075 68.3071 172.302 72.1818L126.735 92.3094C121.772 94.5013 120.384 100.892 123.99 104.945L157.102 142.162C163.477 149.327 154.146 159.598 146.404 153.938L106.189 124.539C101.81 121.337 95.5814 123.331 93.8743 128.48L78.1994 175.765C75.1818 184.867 61.6216 181.922 62.6521 172.388L68.005 122.861C68.5879 117.468 63.7475 113.07 58.4345 114.166L9.64733 124.234C0.255373 126.172 -3.97399 112.956 4.79821 109.081L50.366 88.9534C55.3283 86.7615 56.7164 80.3709 53.1105 76.3179L19.9983 39.1007C13.6239 31.936 22.9547 21.6652 30.6964 27.3248L70.9113 56.7238C75.2908 59.9254 81.5193 57.9322 83.2263 52.7829L98.9012 5.49827Z"
+                            fill="#014921" />
+                    </svg>
+                </div>
+                <div class="svg-content">
+                    <div class="header lightpink">
+                        83%
+                    </div>
+                    <div class="bodytext lightpink">
+                        der jungen Erwachsenen in Chur kommen nicht aus der Region. Treffpunkt ermöglicht ihnen
+                        Anschluss zu
+                        finden, neue Kontakte zu knüpfen und von regionalen Angeboten zu profitieren.
+                    </div>
+                </div>
+            </div>
             <svg xmlns="http://www.w3.org/2000/svg" width="799" height="630" viewBox="0 0 799 630" fill="none">
                 <path
                     d="M699.199 100.513C784.755 197.26 832.956 377.939 770.897 486.859C709.442 595.779 538.33 633.581 372.641 629.737C206.952 626.533 46.6852 582.324 9.3298 488.141C-28.6281 393.957 56.3253 249.157 136.459 155.614C216.592 62.0708 291.905 19.7842 391.319 5.04795C490.13 -9.68829 613.041 3.76655 699.199 100.513Z"
                     fill="#FF5500" />
             </svg>
-            <div class="textt text-overlay">
-                <!--<svg xmlns="http://www.w3.org/2000/svg" width="318" height="316" viewBox="0 0 318 316" fill="none"
-                    class="star1">
-                    <path
-                        d="M158.833 0L163.118 110.495C163.429 118.517 174.043 121.133 178.046 114.174L233.189 18.327L185.633 118.156C182.181 125.404 190.363 132.653 197.142 128.352L290.511 69.1096L202.009 135.404C195.584 140.217 199.46 150.438 207.462 149.78L317.667 140.714L208.494 158.286C200.568 159.562 199.251 170.413 206.641 173.549L308.436 216.737L203.603 181.561C195.991 179.007 189.782 188.003 194.869 194.214L264.933 279.762L188.455 199.896C182.902 194.098 173.223 199.178 174.841 207.042L197.124 315.351L166.521 209.092C164.299 201.378 153.368 201.378 151.146 209.092L120.543 315.351L142.826 207.042C144.444 199.178 134.765 194.098 129.212 199.896L52.7338 279.762L122.798 194.214C127.885 188.003 121.675 179.007 114.064 181.561L9.23082 216.737L111.026 173.549C118.416 170.413 117.099 159.562 109.172 158.286L0 140.714L110.205 149.78C118.206 150.438 122.083 140.217 115.657 135.404L27.156 69.1096L120.525 128.352C127.304 132.653 135.486 125.404 132.033 118.156L84.4777 18.327L139.621 114.174C143.624 121.133 154.238 118.517 154.549 110.494L158.833 0Z"
-                        fill="#FE932F" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="178" height="182" viewBox="0 0 178 182" fill="none"
-                    class="star2">
-                    <path
-                        d="M98.9012 5.49827C101.919 -3.60444 115.479 -0.659109 114.449 8.8752L109.096 58.4018C108.513 63.7953 113.353 68.1927 118.666 67.0964L167.453 57.029C176.845 55.0909 181.075 68.3071 172.302 72.1818L126.735 92.3094C121.772 94.5013 120.384 100.892 123.99 104.945L157.102 142.162C163.477 149.327 154.146 159.598 146.404 153.938L106.189 124.539C101.81 121.337 95.5814 123.331 93.8743 128.48L78.1994 175.765C75.1818 184.867 61.6216 181.922 62.6521 172.388L68.005 122.861C68.5879 117.468 63.7475 113.07 58.4345 114.166L9.64733 124.234C0.255373 126.172 -3.97399 112.956 4.79821 109.081L50.366 88.9534C55.3283 86.7615 56.7164 80.3709 53.1105 76.3179L19.9983 39.1007C13.6239 31.936 22.9547 21.6652 30.6964 27.3248L70.9113 56.7238C75.2908 59.9254 81.5193 57.9322 83.2263 52.7829L98.9012 5.49827Z"
-                        fill="#014921" />
-                </svg>-->
-                <div class="header">
-                    83%
-                </div>
-                <div class="bodytext" style="color: #FFEAD9;">
-                    der jungen Erwachsenen in Chur kommen nicht aus der Region. Treffpunkt ermöglicht ihnen Anschluss zu
-                    finden, neue Kontakte zu knüpfen und von regionalen Angeboten zu profitieren.
-                </div>
-            </div>
         </div>
-        <div class="blob left">
+
+        <div class="blob left top">
             <svg xmlns="http://www.w3.org/2000/svg" width="922" height="670" viewBox="0 0 922 670" fill="none">
                 <path
                     d="M784.547 618.63C636.899 691.81 466.596 671.396 316.537 650.653C160.896 629.138 49.6719 549.15 10.7218 420.71C-27.1806 293.038 38.8869 122.219 154.066 47.2099C269.396 -26.9033 433.987 -4.31052 619.537 50.1814C806.134 105.443 896.303 185.237 914 296.5C930.95 408.786 932.195 545.451 784.547 618.63Z"
                     fill="#12263A" />
             </svg>
-            <div class="textt text-overlay">
-                <div class="header">
+            <div class="text-overlay">
+                <div class="header lightpink">
                     Unsere Vision
                 </div>
-                <div class="bodytext" style="color: #FFEAD9">
+                <div class="bodytext lightpink">
                     Unsere Vision ist es, einen vielfältigen Ort zu gestalten, der Raum für Begegnungen, Kreativität
                     und Austausch bietet. Wir verwandeln ein großes Gebäude in eine lebendige Gemeinschaft, in der
                     jeder willkommen ist.
