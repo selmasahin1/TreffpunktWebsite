@@ -1,3 +1,9 @@
+:root {
+    --bigText: 5vw;
+    --mediumText: 2.5vw;
+    --smallText: 1.2vw;
+  }
+
 .content {
     position: relative;
     margin-top: 100px;
@@ -7,8 +13,8 @@
 }
 
 input {
-    width: 300px;
-    height: 30px;
+    width: 30vw;
+    height: 2vw;
     border-radius: 20px;
     border: 1px solid black;
     flex-shrink: 0;
@@ -19,16 +25,14 @@ input {
 label {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 2vw;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
 textarea {
-    width: 929px;
-    height: 156px;
+    width: 70vw;
+    height: 30vw;
     flex-shrink: 0;
     border-radius: 20px;
     border: 1px solid black;
@@ -41,6 +45,10 @@ form {
     flex-direction: column;
 }
 
+.form svg {
+    width: 95vw;
+}
+
 .sendButton {
     padding: 8px 16px;
     border-radius: 19px;
@@ -48,11 +56,11 @@ form {
     border: none;
     color: var(--weiss, #FFEAD9);
     font-family: 'Source Serif 4', serif;
-    font-size: 29px;
+    font-size: 2vw;
     font-style: italic;
     font-weight: 900;
-    height: 55px;
-    width: 220px;
+    height: 5vw;
+    width: 20vw;
     margin-left: auto;
     margin-right: 100px;
 }
@@ -72,14 +80,13 @@ form {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
     font-weight: bold;
 }
 
 .upperTitle {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 32px;
+    font-size: var(--mediumText);
     font-style: italic;
     font-weight: 300;
     line-height: normal;
@@ -88,7 +95,7 @@ form {
 .mainTitle {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 64px;
+    font-size: var(--bigText);
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -96,16 +103,16 @@ form {
 
 .name {
     display: flex;
-    margin-bottom: 28px;
+    margin-bottom: 1.8vw;
 }
 
 .email {
     margin-left: 20px;
-    margin-bottom: 28px;
+    margin-bottom: 1.8vw;
 }
 
 .email input {
-    width: 500px;
+    width: 50vw;
 }
 
 .text {
@@ -117,35 +124,30 @@ form {
 .mainTitle {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 64px;
+    font-size: var(--bigText);
     font-style: italic;
     font-weight: 800;
-    line-height: normal;
-    width: 470px;
-    margin-bottom: 36px;
+    width: 40vw;
+    margin-bottom: 2vw;
 }
 
 .bigText {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 32px;
-    font-style: normal;
+    font-size: var(--mediumText);
     font-weight: 400;
-    line-height: 56px;
     letter-spacing: 0.64px;
-    width: 470px;
+    width: 40vw;
     margin-bottom: 24px;
 }
 
 .smallText {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 20px;
-    font-style: normal;
+    font-size: var(--smallText);
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.4px;
-    width: 470px;
+    width: 40vw;
 }
 
 .openingHours {
@@ -154,15 +156,20 @@ form {
     margin-bottom: 72px;
 }
 
-.openingHoursText {
-    margin-right: 130px;
+.openingHoursText, .addressText {
+    width: 50vw;
+}
+
+.house img, .mapPicture img {
+    width: 30vw;
+}
+
+.mapPicture {
+    margin-right: 20vw;
 }
 
 .address {
     display: flex;
     align-items: center;
-    margin-bottom: 72px;}
-
-.addressText {
-    margin-left: 130px;
+    margin-bottom: 72px;
 }
