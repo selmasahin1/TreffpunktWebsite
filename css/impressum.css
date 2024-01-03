@@ -9,13 +9,11 @@
 .content {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     color: var(--weiss, #FFEAD9);
     font-family: 'Source Serif 4', serif;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 2vw;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
@@ -25,10 +23,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 24px;
     font-weight: bold;
 }
-
 
 .owner,
 .address,
@@ -37,16 +33,20 @@
     display: inline-block;
 }
 
+.owner svg, .address svg, .contact svg {
+    width: 37vw;
+}
+
 .address {
-    margin-left: -120px;
-    margin-right: -120px;
+    margin-left: -8vw;
+    margin-right: -8vw;
 }
 
 .header {
     color: var(--weiss, #FFEAD9);
     text-align: center;
-    font-family: 'Source Serif 4' , serif;
-    font-size: 64px;
+    font-family: 'Source Serif 4', serif;
+    font-size: 5vw;
     font-style: italic;
     font-weight: 800;
     line-height: normal;
@@ -55,8 +55,8 @@
 
 .header2 {
     color: var(--weiss, #12263a);
-    font-family: 'Source Serif 4' , serif;
-    font-size: 64px;
+    font-family: 'Source Serif 4', serif;
+    font-size: 5vw;
     font-style: italic;
     font-weight: 800;
     line-height: normal;
@@ -65,15 +65,38 @@
 
 .rightstext {
     color: var(--blau, #12263A);
-font-family: 'Source Serif 4';
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.4px;
+    font-family: 'Source Serif 4';
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
 }
 
-.rights{
+.rights {
     align-items: normal;
-    margin: 120px 0 120px 220px;
+    margin: 3vw 6vw;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .address {
+        margin: -6vw 0;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .owner svg, .address svg, .contact svg {
+        width: 80vw;
+    }
+
+    .header, .header2 {
+        font-size: 8vw;
+    }
+
+    .content {
+        font-size: 4vw;
+    }
 }
