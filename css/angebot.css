@@ -31,7 +31,6 @@
     flex-direction: column;
 }
 
-
 .cafe,
 .co-working,
 .workshop,
@@ -41,6 +40,7 @@
 .club {
     position: relative;
     display: inline-block;
+    width: 75vw;
 }
 
 .co-working,
@@ -49,20 +49,7 @@
 .urbanGarden,
 .kino,
 .club {
-    margin-top: -100px;
-}
-
-.kino div,
-.cafe div {
-    color: var(--blau, #12263A);
-}
-
-.co-working div,
-.workshop div,
-.restaurant div,
-.urbanGarden div,
-.club div {
-    color: var(--weiss, #FFEAD9);
+    margin-top: -10vw;
 }
 
 .overlay {
@@ -75,13 +62,14 @@
     font-weight: bold;
     display: inline-flex;
     align-items: flex-start;
-    gap: 82px;
+    gap: 8vw;
+    align-items: center;
 }
 
 .header {
     text-align: center;
     font-family: 'Source Serif 4', serif;
-    font-size: 64px;
+    font-size: 3vw;
     font-style: italic;
     font-weight: 800;
     line-height: normal;
@@ -90,7 +78,7 @@
 .content {
     text-align: center;
     font-family: 'Source Serif 4', serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -100,49 +88,87 @@
 .description {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 3vw;
+    width: 30vw;
 }
 
-.buttonwhite {
-    display: flex;
+.button {
     padding: 8px 16px;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    border-radius: 19.2px;
+    border-radius: 19px;
+    height: 1.5vw;
+    width: 15vw;
+}
+
+.white {
+    color: var(--weiss, #FFEAD9);
+}
+
+.blue {
+    color: var(--weiss, #12263A);
+}
+
+.orange {
+    color: var(--dunkel-orange, #F50);
+}
+
+.buttonwhite {
     background: var(--weiss, #FFEAD9);
     color: var(--dunkel-orange, #F50);
 }
 
 .buttonblue {
-    display: flex;
-    padding: 8px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 19.2px;
     background: var(--blau, #12263A);
-    color: var(--weiss, #FFEAD9);
 }
 
 .buttonorange {
-    display: flex;
-    padding: 8px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 19.2px;
     background: var(--dunkel-orange, #F50);
-    color: var(--weiss, #FFEAD9);
 }
 
 .buttonText {
-    color: var(--dunkel-orange, #F50);
     text-align: center;
-    font-family: Source Serif 4;
-    font-size: 28.8px;
+    font-family: 'Source Serif 4', serif;
     font-style: italic;
     font-weight: 900;
-    line-height: normal;
     letter-spacing: 0.576px;
+    font-size: 1.5vw;
 }
+
+.cafe img,
+.co-working img,
+.workshop img,
+.restaurant img,
+.urbanGarden img,
+.kino img,
+.club img {
+    width: 25vw;
+}
+
+/* Smartphone Styles */
+@media only screen and (max-width: 1000px) {
+
+    .offermenu {
+        display: none;
+    }
+
+    .offercontent {
+        margin-left: 5vw;
+    }
+
+    .overlay {
+        left: 60%;
+    }
+
+    .cafe svg,
+    .co-working svg,
+    .workshop svg,
+    .restaurant svg,
+    .urbanGarden svg,
+    .kino svg,
+    .club svg {
+        width: 90vw;
+    }
+}
+
