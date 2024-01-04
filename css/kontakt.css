@@ -1,15 +1,15 @@
 :root {
     --bigText: 5vw;
-    --mediumText: 2.5vw;
-    --smallText: 1.2vw;
-  }
+    --mediumText: 2.7vw;
+    --smallText: 1.7vw;
+}
 
 .content {
     position: relative;
     margin-top: 100px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 
 input {
@@ -28,16 +28,24 @@ label {
     font-size: 2vw;
     font-weight: 400;
     letter-spacing: 0.48px;
+    margin: 0;
+    padding: 0;
 }
 
 textarea {
-    width: 70vw;
-    height: 30vw;
-    flex-shrink: 0;
-    border-radius: 20px;
+    width: 55vw;
+    height: 8vw !important;
+    border-radius: 15px;
     border: 1px solid black;
-    margin-bottom: 50px;
+    margin-bottom: 2vw;
     background-color: #FFEAD9;
+    overflow: hidden;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.area {
+    margin-left: 5vw;
 }
 
 form {
@@ -50,7 +58,6 @@ form {
 }
 
 .sendButton {
-    padding: 8px 16px;
     border-radius: 19px;
     background: #F50;
     border: none;
@@ -59,7 +66,7 @@ form {
     font-size: 2vw;
     font-style: italic;
     font-weight: 900;
-    height: 5vw;
+    height: 4vw;
     width: 20vw;
     margin-left: auto;
     margin-right: 100px;
@@ -92,23 +99,14 @@ form {
     line-height: normal;
 }
 
-.mainTitle {
-    color: var(--blau, #12263A);
-    font-family: 'Source Serif 4', serif;
-    font-size: var(--bigText);
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
 .name {
     display: flex;
-    margin-bottom: 1.8vw;
+    margin-bottom: 1vw;
 }
 
 .email {
     margin-left: 20px;
-    margin-bottom: 1.8vw;
+    margin-bottom: 1vw;
 }
 
 .email input {
@@ -116,7 +114,6 @@ form {
 }
 
 .text {
-    margin-left: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -150,26 +147,24 @@ form {
     width: 40vw;
 }
 
-.openingHours {
+.openingHours, .address {
     display: flex;
-    align-items: center;
-    margin-bottom: 72px;
+    margin-bottom: 8vw;
 }
 
-.openingHoursText, .addressText {
-    width: 50vw;
+.openingHoursText,
+.mapPicture {
+    width: 45vw;
 }
 
-.house img, .mapPicture img {
+.house img,
+.mapPicture img {
     width: 30vw;
 }
 
-.mapPicture {
-    margin-right: 20vw;
-}
 
-.address {
-    display: flex;
-    align-items: center;
-    margin-bottom: 72px;
+@media only screen and (max-width: 500px) {
+    .textOverlay {
+        left: 58%;
+    }
 }

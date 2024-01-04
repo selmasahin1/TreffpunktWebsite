@@ -34,11 +34,11 @@
 }
 
 .menuLeft {
-    margin-left: 160px;
+    margin-left: 20vw;
 }
 
 .menuRight {
-    margin-right: 160px;
+    margin-right: 20vw;
 }
 
 .menuLeft a:hover,
@@ -62,6 +62,10 @@ body {
     display: none;
 }
 
+.menu-icon {
+    display: none;
+}
+
 
 @media only screen and (max-width: 900px) {
 
@@ -77,7 +81,9 @@ body {
     .menu-icon {
         display: block;
         cursor: pointer;
-        margin-left: 20px;
+        margin-left: 30px;
+        position: relative;
+        z-index: 10;
     }
 
     .menu-icon div {
@@ -86,13 +92,6 @@ body {
         background-color: #014921;
         margin: 6px 0;
         transition: 0.4s;
-    }
-
-    /* Your existing styles */
-
-    .menu-icon {
-        position: relative;
-        z-index: 10;
     }
 
     .menu-icon label {
