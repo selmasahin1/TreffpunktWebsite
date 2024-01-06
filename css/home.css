@@ -12,12 +12,14 @@
 .flexbox {
     display: inline-flex;
     align-items: center;
-    gap: 12vw;
+    gap: 4vw;
 }
 
 .svgFlexbox {
     display: inline-flex;
     align-items: center;
+    left: 60% !important;
+
 }
 
 .svg-container {
@@ -34,9 +36,9 @@
 }
 
 .header {
-    text-align: center;
     font-size: 5vw;
     font-weight: 800;
+    font-style: italic;
 }
 
 .bigText {
@@ -63,18 +65,17 @@
 
 .bodytext {
     width: 35vw;
-    text-align: center;
     font-size: 2vw;
     font-weight: 400;
     letter-spacing: 0.56px;
 }
 
 .first {
-    width: 65vw;
+    width: 70vw;
 }
 
 .second svg {
-    width: 50vw;
+    width: 55vw;
 }
 
 .third svg {

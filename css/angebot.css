@@ -7,6 +7,8 @@
     align-items: center;
     margin-left: 280px;
     margin-top: 150px;
+    margin-bottom: 5vw;
+
 }
 
 .offermenu a {
@@ -55,7 +57,7 @@
 .overlay {
     position: absolute;
     top: 45%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 20px;
@@ -67,7 +69,6 @@
 }
 
 .header {
-    text-align: center;
     font-family: 'Source Serif 4', serif;
     font-size: 3vw;
     font-style: italic;
@@ -75,7 +76,6 @@
 }
 
 .content {
-    text-align: center;
     font-family: 'Source Serif 4', serif;
     font-size: 1.5vw;
     font-weight: 400;

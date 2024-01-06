@@ -44,7 +44,6 @@
 
 .header {
     color: var(--weiss, #FFEAD9);
-    text-align: center;
     font-family: 'Source Serif 4', serif;
     font-size: 5vw;
     font-style: italic;
