@@ -76,3 +76,13 @@
     flex: 1;
     margin: 40px;
 }
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0;
+}
+
+.video video {
+    width: 60vw;
+}
