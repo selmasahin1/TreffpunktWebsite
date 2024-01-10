@@ -61,11 +61,7 @@ body {
     flex-direction: column;
 }
 
-.menu-checkbox, .menu-links {
-    display: none;
-}
-
-.menu-icon {
+.menu-checkbox, .menu-links, .menu-icon {
     display: none;
 }
 
