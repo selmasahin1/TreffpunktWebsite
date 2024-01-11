@@ -4,7 +4,7 @@
     --smallText: 1.7vw;
 }
 
-.content {
+main {
     position: relative;
     margin-top: 100px;
     display: flex;

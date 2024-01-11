@@ -17,12 +17,12 @@
     </header>
 
 <body>
-    <div class="title">
+    <header>
         <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
         <label for="menu-checkbox" class="menu-icon">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
         </label>
         <div class="menu-links">
             <a href="angebot.html" target="_parent">Angebote</a>
@@ -41,22 +41,22 @@
             <a href="uberUns.html" target="_parent" class="bold">Über Uns</a>
             <a href="kontakt.html" target="_parent">Kontakt</a>
         </div>
-    </div>
-    <div class="aboutus">
+    </header>
+    <main>
         <div class="aboutusmenu">
-            <a href="#Wer wir sind">Wer wir sind</a>
-            <a href="#Was wir tun">Was wir tun</a>
-            <a href="#Wie wir es tun">Wie wir es tun</a>
-            <a href="#Was uns antreibt">Was uns antreibt</a>
-            <a href="#Mit wem wir arbeiten">Mit wem wir arbeiten</a>
+            <a href="#WerWirSind">Wer wir sind</a>
+            <a href="#WasWirTun">Was wir tun</a>
+            <a href="#WieWirEsTun">Wie wir es tun</a>
+            <a href="#WasUnsAntreibt">Was uns antreibt</a>
+            <a href="#MitWemWirArbeiten">Mit wem wir arbeiten</a>
         </div>
         <div class="aboutuscontent">
             <div class="uppertext">
-                <div class="text">
-                    <div class="bigtitle" id="#Wer wir sind">
+                <div class="text" id="WerWirSind">
+                    <div class="bigtitle">
                         Wer wir sind
                     </div>
-                    <div class="bodytext">
+                    <div class="widetext bodytext">
                         Wir sehnten uns schon seit einiger Zeit nach einem Ort in Chur, der zum Verweilen einlädt. <br>
                         <br>
                         Wir, das sind Nadine, Dario, Stephanie und Selma. Eine Gruppe junger Studierenden, die für mehr
@@ -70,14 +70,15 @@
                     <img src="/svg/RightFinal.svg" alt="Die Gründer Dario und Stephanie">
                 </div>
                 <div>
-                    <div class="text1">
+                    <div class="bodytext small">
                         Sei es nach Selmas Geschmack für eine kulinarische Reise in unserem Pop-Up Restaurant, wo wir
                         Gerichte aus aller Welt anbieten. <br> <br>
                         Vielleicht begeisterst du dich aber auch wie Dario für einen der vielen regionalen Blockbuster,
                         die
                         regelmässig in unserem hauseigenen Kinosaal laufen.
                     </div>
-                    <div class="text2">
+                    <br>
+                    <div class="bodytext small right">
                         Um mehr Leute kennen zu lernen empfiehlt dir Nadine in unseren Club zu kommen und dir an der Bar
                         einen leckeren Drink machen zu lassen. <br> <br>
                         Oder du gehst es wie Stephanie langsam an und meldest dich bei einem unserer vielzähligen
@@ -92,14 +93,14 @@
             <div class="videocontent">
                 Lerne uns besser kennen! ↓
                 <div class="video">
-                    <video controls>
-                        <source src="/images/Ueber_uns_Treffpunkt.mp4" type=video/mp4>
+                    <video controls preload="metadata">
+                        <source src="/images/Ueber_uns_Treffpunkt.mp4#t=0.2" type=video/mp4>
                     </video>
                 </div>
             </div>
             <div class="aboutusblobs">
-                <div class="Waswirtun" id="Was wir tun">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="986" height="684" viewBox="0 0 986 684" fill="none">
+                <div class="Waswirtun" id="WasWirTun">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 986 684" fill="none">
                         <path
                             d="M3.00012 480.5C19.5002 565 115 666.5 313.54 676.654C512.08 686.807 564 691.5 692.632 644.104C821.264 596.708 1002.84 436.132 984.691 310.503C966.54 184.875 763.039 92.375 590.859 40.2889C418.68 -11.7971 278.951 -23.3136 158.149 66.14C37.9494 154.969 -13.5 396 3.00012 480.5Z"
                             fill="#014921" />
@@ -119,9 +120,8 @@
                         <img src="/svg/puzzle.svg" alt="Puzzle">
                     </div>
                 </div>
-                <div class="Wiewirestun" id="Wie wir es tun">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1014" height="784" viewBox="0 0 1014 784"
-                        fill="none">
+                <div class="Wiewirestun" id="WieWirEsTun">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1014 784" fill="none">
                         <path
                             d="M827.183 689.524C694.368 799 513.076 784.135 362.932 782.358C207.203 780.516 85.6178 702.413 27.0322 555.709C-30.4055 409.76 7.01772 196.683 107.769 89.9813C208.81 -15.6779 373.47 -13.9195 563.722 22.5535C755.122 59.781 970.968 130.968 1006.02 260.498C1040.5 391.357 959.998 580.047 827.183 689.524Z"
                             fill="#FFBBA6" />
@@ -136,17 +136,16 @@
                                 Weiter achten wir auf unseren ökologischen Fussabdruck. Die meisten Lebensmittel, die
                                 in unserem Pop-Up Restaurant verarbeitet werden, wachsen in unseren hauseigenen Urban
                                 Garden. So sorgen wir dafür, dass die Küche nicht nur regional, sondern auch saisonal
-                                kocht. <br> <br>
-                                Doch die Stadt Chur hat nicht nur frisches Obst und Gemüse zu bieten, auch verstecken
-                                sich hier begabte Künstlerinnen und Künstler. Da wir Talente fördern möchten
-                                kooperieren wir mit Filmemachenden aus der Region, die ihre Werke in unserem Kinosaal
-                                präsentieren können. So sorgen wir für ein diverses und regionales Programm.
+                                kocht.<br> <br>
+                                Da wir Talente fördern möchten kooperieren wir mit Filmemachenden aus der Region, die
+                                ihre Werke in unserem Kinosaal präsentieren können. So sorgen wir für ein diverses
+                                und regionales Programm.
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="Wasunsantreibt" id="Was uns antreibt">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="967" height="655" viewBox="0 0 967 655" fill="none">
+                <div class="Wasunsantreibt" id="WasUnsAntreibt">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 967 655" fill="none">
                         <path
                             d="M624.042 632.237C479.828 654.866 297.905 681.851 170.721 597.144C43.5379 512.436 -29.803 316.38 11.5824 192.991C52.8093 70.22 228.408 10.4593 405.581 1.32055C582.015 -8.09048 760.182 32.5027 863.169 132.645C965.416 232.514 992.642 391.314 942.652 485.161C893.402 579.28 767.675 608.718 624.042 632.237Z"
                             fill="#FF5500" />
@@ -167,8 +166,8 @@
                         <img src="/svg/leaf.svg" alt="Blatt">
                     </div>
                 </div>
-                <div class="Mitwemwirarbeiten" id="Mit wem wir arbeiten">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="981" height="544" viewBox="0 0 981 544" fill="none">
+                <div class="Mitwemwirarbeiten" id="MitWemWirArbeiten">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 981 544" fill="none">
                         <path
                             d="M858.369 86.7924C963.306 170.332 1022.43 326.347 946.31 420.399C870.932 514.451 661.058 547.092 457.835 543.773C254.612 541.006 58.0392 502.833 12.2216 421.506C-34.335 340.179 69.8631 215.145 168.149 134.371C266.435 53.5977 358.81 17.0835 480.744 4.35887C601.939 -8.36577 752.693 3.25239 858.369 86.7924Z"
                             fill="#12263A" />
@@ -190,7 +189,7 @@
             </div>
         </div>
 
-    </div>
+    </main>
     <footer>
 
         <div class="logoadress">
