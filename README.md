@@ -29,4 +29,4 @@ Wir haben noch zwei Ordner mit images und svgs. Nur das Über Uns Video konnten 
 Wir haben einige Styleklassen aus dem Figma Developer Mode übernommen.\
 Die SVGs wurden mit einem [Blobmaker](https://www.blobmaker.app/) erstellt, um uns die Arbeit mit dem positionieren zu vereinfachen, haven wir die Sterne und Blobs zu einem svg gemacht.\
 Ausserdem haben wir für das Hamburger Menu und ein paar anderen Problemen hilfe von [ChatGPT](https://chat.openai.com/) geholt.\
-Den Code haben wir auch auf [W3C](https://validator.w3.org/) validiert. Einen Fehler im HTML werden wir nicht los, und zwar die leeren divs, die für die drei Striche im Hamburger Menu gebraucht werden.
+Den Code haben wir auch auf [W3C](https://validator.w3.org/) validiert.
