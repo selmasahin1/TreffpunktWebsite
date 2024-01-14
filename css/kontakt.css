@@ -140,7 +140,7 @@ form {
 
 .openingHours, .address {
     display: flex;
-    margin-bottom: 8vw;
+    margin-bottom: 4vw;
 }
 
 .openingHoursText,
@@ -151,4 +151,8 @@ form {
 .house img,
 .mapPicture img {
     width: 30vw;
+}
+
+.openingHours{
+    margin-top: 4vw;
 }
