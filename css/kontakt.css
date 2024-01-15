@@ -1,5 +1,5 @@
 :root {
-    --bigText: 5vw;
+    --bigText: 3.8vw;
     --mediumText: 2.7vw;
     --smallText: 1.7vw;
 }
@@ -13,7 +13,7 @@ main {
 }
 
 input {
-    width: 18vw;
+    width: 12vw;
     height: 2vw;
     border-radius: 20px;
     border: 1px solid black;
@@ -25,7 +25,7 @@ input {
 label {
     color: var(--blau, #12263A);
     font-family: 'Source Serif 4', serif;
-    font-size: 2vw;
+    font-size: 1.6vw;
     font-weight: 400;
     letter-spacing: 0.48px;
     margin: 0;
@@ -33,12 +33,12 @@ label {
 }
 
 textarea {
-    width: 65vw;
+    width: 30vw;
     height: 10vw !important;
     border-radius: 15px;
     border: 1px solid black;
     margin-bottom: 2vw;
-    background-color: #FFEAD9;
+    background-color: #ffead9;
     overflow: hidden;
     box-sizing: border-box;
     resize: none;
@@ -50,7 +50,22 @@ form {
 }
 
 .form svg {
-    width: 95vw;
+    width: 55vw;
+}
+
+.formInfo svg {
+    width: 45vw;
+    margin-right: -5vw;
+}
+
+.formInfo {
+    display: flex;
+    align-items: center;
+}
+
+.formcontent {
+    display: flex;
+    margin-bottom: 50px;
 }
 
 .sendButton {
@@ -78,6 +93,10 @@ form {
     align-content: center;
 }
 
+.formInfo {
+    position: relative;
+}
+
 .textOverlay {
     position: absolute;
     top: 50%;
@@ -87,12 +106,26 @@ form {
 }
 
 .upperTitle {
-    color: var(--blau, #12263A);
+    color: var(--blau, #FFEAD9);
     font-family: 'Source Serif 4', serif;
-    font-size: var(--mediumText);
+    font-size: var(--smallText);
+    font-weight: 600;
+    letter-spacing: 0.42px;
+}
+
+.mainTitle {
+    color: var(--weiss, #FFEAD9);
+    font-size: var(--bigText);
     font-style: italic;
-    font-weight: 300;
-    line-height: normal;
+    font-weight: 800;
+}
+
+.mainTitleTwo {
+    color: var( #12263A);
+    font-size: var(--bigText);
+    font-style: italic;
+    font-weight: 800;
+    font-family: 'Source Serif 4', serif;
 }
 
 .name {
@@ -107,16 +140,6 @@ form {
 .text {
     display: flex;
     flex-direction: column;
-}
-
-.mainTitle {
-    color: var(--blau, #12263A);
-    font-family: 'Source Serif 4', serif;
-    font-size: var(--bigText);
-    font-style: italic;
-    font-weight: 800;
-    width: 40vw;
-    margin-bottom: 2vw;
 }
 
 .bigText {
@@ -138,7 +161,8 @@ form {
     width: 40vw;
 }
 
-.openingHours, .address {
+.openingHours,
+.address {
     display: flex;
     margin-bottom: 4vw;
 }
@@ -153,6 +177,6 @@ form {
     width: 30vw;
 }
 
-.openingHours{
+.openingHours {
     margin-top: 4vw;
 }
